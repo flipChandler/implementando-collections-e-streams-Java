@@ -11,8 +11,7 @@ public class ExemploComparator {
 		
 		/*
 		 Comparable e Comparator são interfaces auxiliares da API de Collections para trabalhar
-		 com ordenação de coleções
-		  
+		 com ordenação de coleções		  
 		 */
 		
 		List<Estudante> estudantes = new ArrayList<>();
@@ -54,6 +53,8 @@ public class ExemploComparator {
 		Collections.sort(estudantes, new EstudanteComparatorReverso()); 
 		System.out.println("\n----Ordem decrescente por idade (interface Comparator) ---");
 		System.out.println(estudantes);
+		
+		
 		
 	}
 }
